@@ -2,12 +2,16 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="edge" />
 	<title>中国人民大学｜学生工作通讯社</title>
 	<style type="text/css">
 		body {
 			padding: 0;
 			margin: 0;
 			background-color: #eee;
+		}
+		a {
+			text-decoration: none;
 		}
 		.canvas {
 			box-shadow: 5px 0 10px #888888;
@@ -93,6 +97,9 @@
 		}
 		.timeline div {
 			transition: 0.2s;
+			-moz-transition: 0.2s;	/* Firefox 4 */
+			-webkit-transition: 0.2s;	/* Safari 和 Chrome */
+			-o-transition: 0.2s;	/* Opera */
 		}
 		.timeline div:hover {
 			background-color: rgb(193,216,155);
@@ -140,9 +147,16 @@
 		}
 		.bot a {
 			transition: 0.1s;
+			-moz-transition: 0.1s;	
+			-webkit-transition: 0.1s;	
+			-o-transition: 0.1s;	
 		}
 		.bot a:hover {
 			transform: scale(1.02,1.02);
+			-ms-transform: scale(1.02,1.02);
+			-webkit-transform: scale(1.02,1.02);
+			-o-transform: scale(1.02,1.02);	
+			-moz-transform: scale(1.02,1.02);
 		}
 	</style>
 </head>
