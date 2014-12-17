@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>中国人民大学｜学生工作通讯社</title>
+	<style type="text/css">
+		body {
+			padding: 0;
+			margin: 0;
+			background-color: #eee;
+		}
+		.canvas {
+			box-shadow: 5px 0 10px #888888;
+			width: 1000px;
+			margin: auto;
+		}
+		.top {
+			width: 1000px;
+			height: 500px;
+			background-image: url('./image/top.png');
+			-webkit-background-size: 100% 100%;           /* Safari 3.0 */
+			-moz-background-size: 100% 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+			-o-background-size: 100% 100%;           /* Opera 9.5 */
+			background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+			margin: auto;
+			position: relative;
+		}
+		.school {
+			position: absolute;
+			left: 20px;
+			top: 20px;
+		}
+		.school img{
+			height: 53px;
+		}
+		.qr-code {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+		}
+		.title {
+			position: absolute;
+			top: 160px;
+			left: 170px;
+			transition: 1s;
+		}
+		.title:hover {
+			transform: scale(1.1,1.1);
+		}
+		.timeline {
+			position: absolute;
+			/*height: 15px;*/
+			top: 435px;
+			left: 174px;
+		}
+		.timeline div {
+			display: inline-block;
+			width: 166px;
+			margin: 0 0 0 -4px;
+			padding: 0;
+			/*height: 17px;*/
+		}
+		.timeline img {
+			padding-top: 1px;
+			line-height: 17px;
+		}
+		.timeline .freshman img {
+			padding-top: 2px;
+		}
+		.timeline .freshman {
+			background-color: rgb(131,178,55);
+		}
+		.timeline .training {
+			background-color: white;
+		}
+		.timeline .studying {
+			background-color: rgb(131,178,55);
+		}
+		.timeline .graduate {
+			background-color: white;
+		}
+		.timeline .freshman img{
+			padding-left: 24px;
+		}
+		.timeline .training img{
+			padding-left: 29px;
+		}
+		.timeline .studying img {
+			padding-left: 29px;
+		}
+		.timeline .graduate img{
+			padding-left: 22px;
+		}
+		.timeline div {
+			transition: 0.2s;
+		}
+		.timeline div:hover {
+			background-color: rgb(193,216,155);
+		}
+		.bot {
+			height: 300px;
+		}
+		.bot .container {
+			display: inline-block;
+			height: 233px;
+			width: 225px;
+			margin-left: 4px;
+			margin-top: 33px;
+			background-color: white;
+		}
+		.bot img {
+			width: 200px;
+		}
+		.bot .freshman {
+			margin-left: 38px;
+			background-color: rgb(231, 74, 31);
+		}
+		.bot .training {
+			background-color: rgb(232, 110, 37);
+		}
+		.bot .studying {
+			background-color: rgb(232, 147, 37);
+		}
+		.bot .graduate {
+			background-color: rgb(233, 178, 37);
+		}
+		.bot .img {
+			margin: auto;
+			padding-left: 12px;
+		}
+		.bot .img img {
+			margin: 0;
+			padding: 0; 
+			height: 155px;
+		}
+		.bot .word img {
+			margin-left: 12px;
+			width: 200px;
+			height: 64px;
+		}
+		.bot a {
+			transition: 0.1s;
+		}
+		.bot a:hover {
+			transform: scale(1.02,1.02);
+		}
+	</style>
+</head>
+<body>
+	<div class="canvas container">
+		<div class="container top">
+			<div class="container school">
+				<img src="./image/left-top.png" alt="中国人民大学｜学生工作通讯社"/>
+			</div>
+			<div class="container qr-code">
+				<img src="./image/qrcode.png" alt="扫一扫关注学生会官方微博微信"/>
+			</div>
+			<div class="container title">
+				<img src="./image/enjoy.png" alt="成长导航enjoy your life"/>
+			</div>
+			<div class="container timeline">
+				<div class="freshman">
+					<img src="./image/t1.png" alt="9.9人大我来了"/>
+				</div>
+				<div class="training">
+					<img src="./image/t2.png" alt="暑假我在军营"/>
+				</div>
+				<div class="studying">
+					<img src="./image/t3.png" alt="修炼学在人大"/>
+				</div>
+				<div class="graduate">
+					<img src="./image/t4.png" alt="6月我们毕业啦"/>
+				</div>
+			</div>
+		</div>
+		<div class="container bot">
+			<a href="www.ruc.edu.cn">
+				<div class="container freshman">
+					<div class="img">
+						<img src="./image/p1.png" alt="新生导航网"/>
+					</div>
+					<div class="word">
+						<img src="./image/w1.png" alt="新生导航网"/>
+					</div>
+				</div>
+			</a>
+			<a href="junxun.ruc.edu.cn">
+				<div class="container training">
+					<div class="img">
+						<img src="./image/p2.png" alt="本科军训网"/>
+					</div>
+					<div class="word">
+						<img src="./image/w2.png" alt="本科军训网"/>
+					</div>
+				</div>
+			</a>
+			<a href="www.ruc.edu.cn">
+				<div class="container studying">
+					<div class="img">
+						<img src="./image/p3.png" alt="乐学网"/>
+					</div>
+					<div class="word">
+						<img src="./image/w3.png" alt="乐学网"/>
+					</div>
+				</div>
+			</a>
+			<a href="www.ruc.edu.cn">
+				<div class="container graduate">
+					<div class="img">
+						<img src="./image/p4.png" alt="毕业季"/>
+					</div>
+					<div class="word">
+						<img src="./image/w4.png" alt="毕业季"/>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>

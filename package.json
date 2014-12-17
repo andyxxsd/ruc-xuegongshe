@@ -1,0 +1,14 @@
+{
+    "name"        : "ruc",
+    "version"     : "0.0.1",
+    "description" : "单页导航",
+    "author"      : "郑立迪，黄橙凝，陈俐妍",
+    "keywords"    : [
+        "ruc",
+        "single page",
+        "guide"
+    ],
+    "dependencies": {
+        "express": "*"
+    }
+}
